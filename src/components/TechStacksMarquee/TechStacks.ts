@@ -8,16 +8,11 @@ import htmlImg from "../../assets/Images/stack/HTML.png";
 import cssImg from "../../assets/Images/stack/CSS.png";
 import githubImg from "../../assets/Images/stack/icons8-github-144.png";
 import gitImg from "../../assets/Images/stack/Git.svg";
-import graphQLImg from "../../assets/Images/stack/Graphql.svg";
 import nextJsImg from "../../assets/Images/stack/icons8-nextjs-144.png";
 import reduxImg from "../../assets/Images/stack/Redux.svg";
 import saasImg from "../../assets/Images/stack/Saas.svg";
 import materailUIImg from "../../assets/Images/stack/MaterialUI.svg";
 import bootstrapImg from "../../assets/Images/stack/Bootstrap.svg";
-import bashImg from "../../assets/Images/stack/Bash.svg";
-import javaImg from "../../assets/Images/stack/icons8-java-500.png";
-import springImg from "../../assets/Images/stack/icons8-spring-boot-240.png";
-import sprintBootImg from "../../assets/Images/stack/icons8-spring-boot-480.png";
 import angularImg from "../../assets/Images/stack/icons8-angular-144.png";
 
 const techStack = [

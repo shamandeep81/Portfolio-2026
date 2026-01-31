@@ -17,8 +17,6 @@ const Error404 = lazy(() => import("../pages/Error404"));
 const TechStackMarqueeHeader = lazy(() => import("../components/TechStacksMarquee/TechStackMarqueeHeader"));
 const TechLogoMarquee = lazy(() => import("../components/Marquee/TechLogoMarquee"));
 const Github = lazy(() => import("../components/Github/Github"));
-const TestimonialMarqueeHeader = lazy(() => import("../components/Testimonials/TestimonialMarqueeHeader"));
-const TestimonialMarquee = lazy(() => import("../components/Marquee/TestimonialMarquee"));
 const ResumeHeader = lazy(() => import("../components/Resume/ResumeHeader"));
 const ContactMeHeader = lazy(() => import("../components/Contactme/ContactmeHeader"));
 

@@ -12,8 +12,8 @@ const Project: React.FC = () => {
                     key={index}
                     techStack={project.techStack}
                     projectName={project.projectName}
-                    mainImg={project.mainImg}
-                    secImg={project.secImg}
+                    mainImg=""
+                    secImg=""
                     overlayImg={project.overlayImg}
                     svgNumberImg={project.svgNumberImg}
                     githubLink={project.githubLink}

@@ -1,17 +1,16 @@
-import GitHubCalendar from "react-github-calendar";
-import { motion } from "framer-motion";
+
 
 const Github: React.FC = () => {
 
-    type ThemeInput = {
-        light: string[];
-        dark?: string[];
-    };
+    // type ThemeInput = {
+    //     light: string[];
+    //     dark?: string[];
+    // };
 
-    const explicitTheme: ThemeInput = {
-        light: ['#fef3c7', '#fbcfe8', '#f9a8d4', '#d946ef', '#a855f7'],
-        dark: ['#1f1f1f', '#4c1d95', '#9333ea', '#e879f9', '#facc15'],
-    };
+    // const explicitTheme: ThemeInput = {
+    //     light: ['#fef3c7', '#fbcfe8', '#f9a8d4', '#d946ef', '#a855f7'],
+    //     dark: ['#1f1f1f', '#4c1d95', '#9333ea', '#e879f9', '#facc15'],
+    // };
 
 
     return (

@@ -1,5 +1,4 @@
 import { ImGithub, ImLinkedin2 } from "react-icons/im";
-import { IoLogoInstagram } from "react-icons/io5";
 import { CiMenuFries } from "react-icons/ci";
 import { useMusic } from "../../context/MusicContext";
 
