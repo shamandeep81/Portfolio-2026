@@ -12,7 +12,7 @@ const projectData = [
     // secImg: mainImgPortfolio,
     overlayImg: overlayImg,
     githubLink: "",
-    liveLink: "https://shamandeep.tech",
+    liveLink: "https://portfolio-2026-ead6jybmk-shamandeep-kaurs-projects.vercel.app/",
     svgNumberImg: Img01,
   },
 ];
