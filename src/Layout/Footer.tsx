@@ -1,6 +1,6 @@
 import React from "react";
 import { ImGithub, ImLinkedin2 } from "react-icons/im";
-// import { IoLogoInstagram } from "react-icons/io5";
+
 
 const Footer: React.FC = () => {
   return (
