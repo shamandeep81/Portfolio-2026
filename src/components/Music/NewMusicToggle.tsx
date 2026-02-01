@@ -4,7 +4,7 @@ const NewMusicToggle = () => {
   const { toggleMusic, isPlaying } = useMusic();
 
   return (
-    <button className="cursor-pointer absolute top-1/12 md:top-1/8 right-5/7 md:right-48 z-50 h-10 w-20 md:h-12 border-2 border-purple-500 rounded-full p-1 md:p-2">
+    <button className="cursor-pointer absolute top-[680px] md:top-1/8 right-5/7 md:right-48 z-50 h-10 w-20 md:h-12 border-2 border-purple-500 rounded-full p-1 md:p-2">
       <div
         onClick={toggleMusic}
         className={`absolute top-1/2 transform -translate-y-1/2 w-6 h-6 md:w-7 md:h-7 rounded-full bg-white 
