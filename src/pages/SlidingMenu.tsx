@@ -55,7 +55,7 @@ const SlidingMenu = () => {
       {isOpen && (
         <motion.div
           key="slide-menu"
-          className="fixed top-0 right-0 h-full w-[85vw] sm:w-[70vw] md:w-[50vw] lg:w-[35vw] z-50 p-6 bg-white/5 backdrop-blur-xl border-l-2 border-[#2A2B37] text-white shadow-[0_8px_32px_rgba(0,0,0,1)] rounded-l-3xl flex flex-col justify-between "
+          className="fixed top-0 right-0 h-full w-[85vw] sm:w-[70vw] md:w-[50vw] lg:w-[35vw] z-[60] p-6 bg-white/5 backdrop-blur-xl border-l-2 border-[#2A2B37] text-white shadow-[0_8px_32px_rgba(0,0,0,1)] rounded-l-3xl flex flex-col justify-between "
           variants={menuVariants}
           initial="hidden"
           animate="visible"
@@ -111,14 +111,6 @@ const SlidingMenu = () => {
               className="hover:text-white hover:scale-125 transition-transform duration-200"
             >
               <ImLinkedin2 size={24} />
-            </a>
-            <a
-              href="https://www.instagram.com/shamandeepkaur924/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white hover:scale-125 transition-transform duration-200"
-            >
-              <IoLogoInstagram size={24} />
             </a>
           </motion.div>
         </motion.div>

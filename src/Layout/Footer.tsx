@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <div className="relative flex font-thin items-center justify-center space-x-4">
           <a href="https://github.com/shamandeep81" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 cursor-pointer active:text-teal-300 active:scale-125"><ImGithub size={24} /></a>
           <a href="https://www.linkedin.com/in/shamandeep-kaur-9b1476164/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 cursor-pointer active:text-teal-300 active:scale-125"><ImLinkedin2 size={24} /></a>
-          <a href="https://www.instagram.com/shamandeepkaur924/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 cursor-pointer active:text-teal-300 active:scale-125"><IoLogoInstagram size={24} /></a>
+          {/* <a href="https://www.instagram.com/shamandeepkaur924/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 cursor-pointer active:text-teal-300 active:scale-125"><IoLogoInstagram size={24} /></a> */}
         </div>
       </div>
     </footer>
