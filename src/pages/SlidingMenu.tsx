@@ -2,8 +2,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useMusic } from '../context/MusicContext';
 import { useNavigate } from 'react-router-dom';
 import { ImGithub, ImLinkedin2 } from 'react-icons/im';
-import { IoLogoInstagram } from 'react-icons/io5';
-
 const menuVariants = {
   hidden: { x: '100%' },
   visible: {
